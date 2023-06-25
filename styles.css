@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #8B0000; /* Brick red background color */
+    font-size: 16px; /* Base font size */
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: red; /* Red navigation bar color */
+    z-index: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px; /* Font size for navigation links */
+  }
+  
+  .navbar .logo {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar .nav-links li {
+    margin-right: 10px;
+  }
+  
+  .navbar .nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    margin-top: 80px; /* Adjust top margin to avoid content overlapping with navigation bar */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px; /* Font size for the footer */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      padding: 10px;
+    }
+  
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar .nav-links li {
+      margin-right: 5px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    footer {
+      padding: 20px;
+      font-size: 12px;
+    }
+  }
+  
